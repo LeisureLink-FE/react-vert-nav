@@ -1,0 +1,61 @@
+.nav {
+  display: flex;
+  flex-flow: column nowrap;
+  background: var(--ll-grey-dark);
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.25rem;
+  line-height: 1.5625;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 1.5625em;
+  border-bottom: 1px solid hsla(0, 100%, 100%, .2);
+  cursor: pointer;
+}
+
+.subNav,
+.subNav > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.subLink {
+  color: inherit;
+  text-decoration: none;
+  font-size: .7em;
+  background: hsla(0, 100%, 100%, 0.1);
+  display: block;
+  padding: 1.6em 1em 1.6em 2em;
+  border-left: 2px solid #fff;
+  border-bottom: 1px solid hsla(360, 0%, 0%, 0.2);
+}
+.subNav-properties .subLink {
+    border-left-color: var(--ll-app-color-properties);
+}
+.subNav-distribution .subLink {
+    border-left-color: var(--ll-app-color-distribution);
+}
+.subNav-bookings .subLink {
+    border-left-color: var(--ll-app-color-bookings);
+}
+.subNav-setup .subLink {
+    border-left-color: var(--ll-app-color-setup);
+}
+.subNav-account .subLink {
+    border-left-color: var(--ll-app-color-account);
+}
+.subNav-operations .subLink {
+    border-left-color: var(--ll-app-color-operations);
+}
+.subNav-accounting .subLink {
+    border-left-color: var(--ll-app-color-accounting);
+}
+
+li:last-child > .subLink {
+  border-bottom: none;
+}

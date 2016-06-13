@@ -1,0 +1,38 @@
+{
+  "name": "react-vert-nav",
+  "version": "1.0.0",
+  "description": "A React vertical navigation component specifically meant for Integration-hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeisureLink-FE/react-vert-nav.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "navigation"
+  ],
+  "author": "Cory Brown <oh.wise.man@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeisureLink-FE/react-vert-nav/issues"
+  },
+  "homepage": "https://github.com/LeisureLink-FE/react-vert-nav#readme",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "react": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "enzyme": "^2.3.0",
+    "eslint": "^2.11.1",
+    "eslint-plugin-react": "^5.1.1",
+    "tape": "^4.5.1"
+  },
+  "peerDependencies": {
+    "react": "^15.1.0"
+  }
+}
