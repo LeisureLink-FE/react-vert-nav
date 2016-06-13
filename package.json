@@ -16,7 +16,7 @@
     "navigation"
   ],
   "author": "Cory Brown <oh.wise.man@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/LeisureLink-FE/react-vert-nav/issues"
   },
